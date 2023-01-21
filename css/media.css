@@ -1,0 +1,123 @@
+@media (max-width: 1240px) {
+    .header{
+        padding: 30px 45px;
+    }
+    .footer{
+        padding: 0 45px;
+    }
+    .stages{
+        justify-content: center;
+    }
+    .deliver-title{
+        text-align: center;
+    }
+    .header-content{
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .nav, .header-info{
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 920px) {
+    .container{
+        padding: 0;
+    }
+    .payment{
+        padding: 0 10px;
+    }
+    footer {
+        padding: 46px 30px 50px;
+    }
+    .address{
+        margin-right: 35px;
+    }
+    .contacts{
+        margin-right: 50px;
+    }    
+    .payment-desc{
+        line-height: 23.5px;
+    }
+    .payment__items{
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        row-gap: 20px;
+    }
+    .payment__item{
+        margin: auto;
+        display: flex;
+        max-width: 100%;
+    }
+    .mailing {
+        padding: 70px 21vw 71px 21vw;
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+    .email-form {
+        justify-content: space-between;
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .payment-info {
+        padding: 28px 30px 26px 34px;
+    }
+    .footer{
+        flex-wrap: wrap;
+        row-gap: 24px;
+    }
+    .footer-info {
+        margin-right: 10px;
+        max-width: 90%;
+    }
+    .mailing {
+        padding: 70px 12vw 71px 12vw;
+        background-position: -600px;
+    }
+    .header {
+        padding: 30px 10px;
+    }
+}
+
+@media (max-width: 730px) {
+    .payment__item{
+        flex-direction: column;
+        max-width: 393px;
+    }
+    .title{
+        text-align: center;
+    }
+    .stage-desc, .stage-title{
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 470px) {
+    .nav, .header-info, .header-delivery{
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .logo, .phone, .time, .search{
+        margin-right: 0;
+    }
+    .stage-desc{
+        line-height: 23.5px;
+    }
+    .footer-info{
+        line-height: 25px;
+    }
+    .sotseti{
+        flex-direction: row;
+        align-items: center;
+    }
+    .mailing{
+        padding: 70px 4vw 71px 4vw;
+    }
+    .mail-title{
+        font-size: 25px;
+    }
+}

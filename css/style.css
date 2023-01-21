@@ -1,0 +1,244 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2;
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.title{
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.header{
+    padding: 30px 0;
+    box-shadow: 0px 3px 84px rgba(0, 0, 0, 0.07);
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 34px;
+}
+.logo-img{
+    margin-right: 12px;
+}
+
+.burger-span{
+    width: 22px;
+    height: 0px;
+    border-bottom: 1px solid #B798FF;
+    display: block;
+    position: relative;
+    margin-right: 14px;
+}
+.burger-span::after, .burger-span::before{
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 0px;
+    border-bottom: 1px solid #B798FF;
+    display: block;
+    top: -7px;
+}
+.burger-span::before{
+    top: 7px;
+}
+
+.burger-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burg__items{
+    display: none;
+}
+
+.header-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.phone{
+    font-weight: 700;
+    margin-right: 29px;
+}
+.time{
+    margin-right: 65px;
+}
+
+.header-delivery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search{
+    border: none;
+    border-bottom: 1px solid #8B8B8B;
+    width: 175px;
+    margin-right: 67px;
+    padding: 8px 0;
+}
+.cart{
+    width: 38px;
+    text-align: right;
+    background-image: url(../img/Shopping-cart.svg);
+    background-repeat: no-repeat;
+}
+
+
+
+.delivery{
+    padding: 32px 0 48px;
+}
+.stages{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 36px;
+    margin-bottom: 50px;
+}
+.stage{
+    width: 610px;
+}
+.stage-img{
+    margin-bottom: 14px;
+}
+.stage-title{
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.stage-desc{
+    line-height: 30px;
+}
+
+.email-form{
+    display: flex;
+}
+.mailing{
+    background-image: url(../img/Mailing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 70px 7vw 71px 7vw;
+    color: #fff;
+    line-height: 30px;
+}
+.mail-title{
+    font-weight: 900;
+    font-size: 30px;
+    margin-right: 31px;
+}
+.email-input{
+    margin-right: 20px;
+    padding: 9px 24px 12px 24px;
+    max-width: 250px;
+    width: 100%;
+    border: none;
+}
+.email-btn{
+    padding: 9px 22px 12px;
+    background-color: #B798FF;
+    border: none;
+    color: #fff;
+} 
+
+
+.payment{
+    padding-bottom: 59px;
+    line-height: 30px;
+}
+.payment__items{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+}
+.payment__item{
+    max-width: 393px;
+    width: 100%;
+    box-shadow: 0px 3px 84px rgba(0, 0, 0, 0.07);
+}
+.payment-img{
+    width: 100%;
+    max-width: 393px;
+    max-height: 285px;
+}
+.payment-info{
+    padding: 38px 40px 36px 44px;
+}
+.payment-title{
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+}
+
+footer{
+    background-color: #F0F0F0;
+    padding: 46px 0 50px;
+    line-height: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.click{
+    color: #927BC9;
+}
+.address{
+    margin-right: 77px;
+    max-width: 242px;
+    width: 100%;
+}
+.contacts{
+    margin-right: 73px;
+    max-width: 176px;
+    width: 100%;
+}
+.footer-info{
+    margin-right: 45px;
+    max-width: 624px;
+    width: 100%;
+    color: #A8A8A8;
+}
+.sotseti{
+    padding: 9px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seti{
+    width: 22px;
+}
+.seti:not(:last-child){
+    margin-bottom: 7px;
+}
+.sot-img{
+    margin: auto;
+}

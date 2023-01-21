@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Сайтик</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/_reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <nav class="nav">
+                <a class="logo" href="#">
+                    <img class="logo-img" src="img/logo.svg">
+                    <p>Teashop.by</p>
+                </a>
+
+                <div class="header-cotalog">
+                    <div class="burger-inner">
+                        <div class="burger">
+                            <span class="burger-span"></span>
+                        </div>
+                        <p class="tea">Чайный каталог</p>
+                        
+                    </div>
+                    
+                    <ul class="burg__items">
+                        <li class="burg__item">Бургер меню</li>
+                        <li class="burg__item">Бургер меню</li>
+                        <li class="burg__item">Бургер меню</li>
+                        <li class="burg__item">Бургер меню</li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="header-info">
+                <a class="phone" href="tel: +79639990336">375 33 604 11 77</a>
+
+                <time class="time">с 10 до 21</time>
+
+                <p class="deliv-info">Доставка и оплата</p>
+            </div>
+
+            <div class="header-delivery">
+                <input class="search" type="search" placeholder="Поиск по товарам">
+
+                <span class="cart">15</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="delivery">
+                <h2 class="title deliver-title">Доставка</h2>
+
+                <ul class="stages">
+                    <li class="stage">
+                        <img class="stage-img" src="img/delivery1.svg">
+                        <h3 class="stage-title">Оформление заказа</h3>
+                        <p class="stage-desc">Вы можете оформить заказ в нашем интернет-магазине круглосуточно. Обработка оформленных заказов осуществляется ежедневно. Прием заказов по телефону осуществляется ежедневно с 10.00 до 21.00.</p>
+                    </li>
+
+                    <li class="stage">
+                        <img class="stage-img" src="img/delivery2.svg">
+                        <h3 class="stage-title">Доставка</h3>
+                        <p class="stage-desc">Доставка заказов курьером по г. Минску осуществляется ежедневно. Отправления почты: с понедельника по пятницу включительно. Заказы, поступившие до 15:00 обрабатываются в тот же день.</p>
+                    </li>
+
+                    <li class="stage">
+                        <img class="stage-img" src="img/delivery3.svg">
+                        <h3 class="stage-title">Бесплатная доставка</h3>
+                        <p class="stage-desc">Бесплатная доставка доступна при заказе на сумму более 60 рублей. Доставка возможна курьером по Минску и почтой по РБ. Мы берем на себя все расходы на упаковку и оплату отправления.</p>
+                    </li>
+
+                    <li class="stage">
+                        <img class="stage-img" src="img/delivery4.svg">
+                        <h3 class="stage-title">Самовывоз</h3>
+                        <p class="stage-desc">Вы можете сами забрать Ваш заказ в нашем магазине по адресу пр-т Независимости, 28 (Магазин чая TeaShop). Заказ можно забрать в течение 7 дней после его оформления на странице корзины сайта.</p>
+                    </li>
+                </ul>
+
+                <div class="mailing">
+                    <h3 class="mail-title">Узнавать о скидках первым</h3>
+                    <form class="email-form">
+                        <input class="email-input" type="email" placeholder="E-mail">
+                        <button class="email-btn " type="submit">Подписаться</button>
+                    </form>
+                </div>
+            </section>
+
+            <section class="payment">
+                <h2 class="title">Оплата</h2>
+
+                <ul class="payment__items">
+                    <li class="payment__item">
+                        <img class="payment-img" src="img/payment1.png">
+                        <div class="payment-info">
+                            <h3 class="payment-title">Наличными</h3>
+                            <p class="payment-desc">Оплата наличными возможна при доставке заказа курьером, либо при самовывозе. При оплате наличными предоставляется кассовый чек</p>
+                        </div>
+                    </li>
+
+                    <li class="payment__item">
+                        <img class="payment-img" src="img/payment2.png">
+                        <div class="payment-info">
+                            <h3 class="payment-title">Наложенным платежом</h3>
+                            <p class="payment-desc">Оплата наложенным платежом при доставке заказа почтой. Оплата будет производится в отделении БелПочты при получении посылки</p>
+                        </div>
+                    </li>
+
+                    <li class="payment__item">
+                        <img class="payment-img" src="img/payment3.png">
+                        <div class="payment-info">
+                            <h3 class="payment-title">Банковской картой</h3>
+                            <p class="payment-desc">Платежи по банковским картам осуществляются через систему электронных платежей bePaid</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+        </div>
+        
+    </main>
+    
+    <footer>
+        <div class="container footer">
+
+            <address class="address">
+                проспект Независимости, 28 Минск <a href="#" class="metro click">метро Октябрьская</a>
+            </address>
+
+            <div class="contacts">
+                <a href="#" class="telephone">375 33 604 11 77</a>
+                <a href="#" class="click">teashop@teashop.by</a>
+                <a href="#" class="click">teaspace@teashop.by</a>
+            </div>
+
+            <p class="footer-info">Интернет-магазин зарегистрирован в Торговом реестре РБ 22/10/2015 г. ИП Клишевский Вадим Станиславович г. Минск, ул. Голубева, 22, корп.1, кв.200. Св-во о регистрации №192236137 выдано 14.03.2014 г.</p>
+
+            <ul class="sotseti">
+                <li class="seti vk"><a href="#"><img class="sot-img" src="img/vk.svg"></a></li>
+                <li class="seti facebook"><a href="#"><img class="sot-img" src="img/facebook.svg"></a></li>
+                <li class="seti inst"><a href="#"><img class="sot-img" src="img/inst.svg"></a></li>
+            </ul>
+
+        </div>
+    </footer>
+</body>
