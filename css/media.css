@@ -115,9 +115,12 @@
         align-items: center;
     }
     .mailing{
-        padding: 70px 4vw 71px 4vw;
+        padding: 70px 4vw 71px 10vw;
     }
     .mail-title{
         font-size: 25px;
+    }
+    .email-btn {
+        padding: 8px 6px 8px;
     }
 }
